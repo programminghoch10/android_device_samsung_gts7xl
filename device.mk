@@ -25,6 +25,11 @@ TARGET_SCREEN_WIDTH := 2800
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.primary_display_orientation=ORIENTATION_270
 
+# Change default boot orientation
+#  Id at the end corresponds to the display id on the device.
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.bootanim.set_orientation_4630947232161729153=ORIENTATION_90
+
 # Init files
 PRODUCT_PACKAGES += \
     init.gts7xl.rc
