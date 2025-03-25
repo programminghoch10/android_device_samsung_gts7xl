@@ -1,0 +1,6 @@
+# S Pen
+/sys/devices/virtual/sec/sec_epen(/.*)?                       u:object_r:sysfs_spen:s0
+
+/mnt/vendor/efs/spen(/.*)?                   u:object_r:spen_efs_file:s0
+
+/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.spen-service\.davinci                        u:object_r:hal_samsung_spen_default_exec:s0

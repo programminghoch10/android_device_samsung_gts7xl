@@ -55,7 +55,7 @@ PRODUCT_PACKAGES += \
     SPenActions
 
 PRODUCT_PACKAGES += \
-    vendor.samsung.hardware.spen-service.gts7xl
+    vendor.samsung.hardware.spen-service.davinci
 
 # Inherit from vendor blobs
 $(call inherit-product-if-exists, vendor/samsung/gts7xl/gts7xl-vendor.mk)
